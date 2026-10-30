@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Iphone />} />
         <Route path="/compare-airpods" element={<CompareAirpods />} />
         <Route path="/airpods-max" element={<AirpodsMax />} />
         <Route path="/displays" element={<Displays />} />
@@ -25,7 +25,7 @@ export default function App() {
         <Route path="/Tv-Home" element={<Tv />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/ipad" element={<Ipad />} />
-        <Route path="/iphone" element={<Iphone />} />
+        <Route path="/iphone" element={<Home />} />
         <Route path="/support" element={<Support />} />
       </Routes>
     </div>
