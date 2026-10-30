@@ -1,5 +1,5 @@
 import appleLogo from "../../assets/Apple.png";
-import hero from "../../assets/watch_apple_2.jpg";
+import hero from "../../assets/Watch_apple_2.jpg";
 
 function WatchNikeHero() {
   return (
